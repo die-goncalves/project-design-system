@@ -19,6 +19,8 @@ export const Button = styled('button', {
 
   cursor: 'pointer',
 
+  transition: '0.2s all linear',
+
   svg: {
     width: '$4',
     height: '$4',
@@ -62,6 +64,17 @@ export const Button = styled('button', {
         },
         '&:disabled': {
           color: '$gray600',
+        },
+      },
+      quaternary: {
+        color: '$white',
+        background: '$gray600',
+
+        '&:not(:disabled):hover': {
+          background: '$gray500',
+        },
+        '&:disabled': {
+          background: '$gray200',
         },
       },
     },
