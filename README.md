@@ -40,25 +40,25 @@ Acesse o `Readme.md` dos pacotes para maiores detalhes.
   - É **necessário** ter o gerenciador de pacotes **[Npm](https://www.npmjs.com/)**.
   
 - ### **Próximo passo**
-  1. Faça um clone deste repositório:
-      ```sh
-      $ git clone https://github.com/die-goncalves/project-design-system.git
-      ```
+1. Faça um clone deste repositório:
+    ```sh
+    $ git clone https://github.com/die-goncalves/project-design-system.git
+    ```
 
-  2. Instale as dependências:
-      ```sh
-      # Entre no diretório do repositório clonado
-      $ cd project-design-system
-      # Instale as dependências do projeto.
-      $ npm install
-      ```
+2. Instale as dependências:
+    ```sh
+    # Entre no diretório do repositório clonado
+    $ cd project-design-system
+    # Instale as dependências do projeto.
+    $ npm install
+    ```
 
-  3. Execute a aplicação:
-      ```sh
-      # Na raiz do projeto abra o terminal e execute o comando 
-      $ npm run dev
-      # A aplicação inciará automaticamente na porta 6006 - acesse <http://localhost:6006>
-      ```
+3. Execute a aplicação:
+    ```sh
+    # Na raiz do projeto abra o terminal e execute o comando 
+    $ npm run dev
+    # A aplicação inciará automaticamente na porta 6006 - acesse <http://localhost:6006>
+    ```
 
 ## Interface gráfica e deploy
 
