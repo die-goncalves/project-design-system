@@ -11,7 +11,7 @@ export default {
 
 export const Primary: StoryObj<TextInputProps> = {
   args: {
-    placeholder: 'Type your name',
+    placeholder: 'Digite seu nome',
   },
 }
 
@@ -38,7 +38,7 @@ export const WithLabel: StoryObj<TextInputProps> = {
           as="label"
           css={{ display: 'flex', flexDirection: 'column', gap: '$2' }}
         >
-          <Text size="sm">E-mail address</Text>
+          <Text size="sm">Seu endereço de e-mail</Text>
           {Story()}
         </Box>
       )

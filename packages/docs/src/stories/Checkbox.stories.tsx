@@ -18,7 +18,7 @@ export default {
           }}
         >
           {Story()}
-          <Text size="sm">Accept terms of use</Text>
+          <Text size="sm">Aceitar os termos de uso</Text>
         </Box>
       )
     },

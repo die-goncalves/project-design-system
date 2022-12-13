@@ -36,18 +36,18 @@ const Template: Story<DialogRootProps> = (args) => {
       onOpenChange={(open) => updateArgs({ open })}
     >
       <DialogComponent.Trigger asChild>
-        <Button variant="primary">Open dialog</Button>
+        <Button variant="primary">Abrir dialog</Button>
       </DialogComponent.Trigger>
 
       <DialogComponent.Portal>
         <DialogComponent.Overlay />
         <DialogComponent.Content>
           <DialogComponent.Title asChild>
-            <Heading size="md">Dialog Title</Heading>
+            <Heading size="md">Título</Heading>
           </DialogComponent.Title>
           <DialogComponent.Description asChild>
             <Text size="sm" css={{ color: '#a9a9b2' }}>
-              Dialog description
+              Descrição
             </Text>
           </DialogComponent.Description>
           <Text>

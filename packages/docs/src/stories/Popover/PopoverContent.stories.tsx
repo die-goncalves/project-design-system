@@ -47,11 +47,11 @@ const Template: Story<PopoverContentProps> = (args) => {
   return (
     <PopoverComponent.Root>
       <PopoverComponent.Trigger asChild>
-        <Button variant="primary">Open popover</Button>
+        <Button variant="primary">Abrir popover</Button>
       </PopoverComponent.Trigger>
 
       <PopoverComponent.Content {...args}>
-        <Text>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</Text>
+        <Text>Lorem ipsum dolor sit amet consectetur, adipisicing elit...</Text>
 
         <PopoverComponent.Arrow />
         <PopoverComponent.Close />

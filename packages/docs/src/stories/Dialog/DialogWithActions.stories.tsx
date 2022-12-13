@@ -35,18 +35,18 @@ const Template: Story<DialogActionsProps> = (args) => {
   return (
     <DialogComponent.Root>
       <DialogComponent.Trigger asChild>
-        <Button variant="primary">Open dialog</Button>
+        <Button variant="primary">Abrir dialog</Button>
       </DialogComponent.Trigger>
 
       <DialogComponent.Portal>
         <DialogComponent.Overlay />
         <DialogComponent.Content>
           <DialogComponent.Title asChild>
-            <Heading size="md">Dialog Title</Heading>
+            <Heading size="md">Título</Heading>
           </DialogComponent.Title>
           <DialogComponent.Description asChild>
             <Text size="sm" css={{ color: '#a9a9b2' }}>
-              Dialog description
+              Descrição
             </Text>
           </DialogComponent.Description>
           <Text>
@@ -57,8 +57,8 @@ const Template: Story<DialogActionsProps> = (args) => {
           </Text>
 
           <DialogComponent.Actions {...args}>
-            <Button variant="secondary">Secondary</Button>
-            <Button variant="primary">Primary</Button>
+            <Button variant="secondary">Cancelar</Button>
+            <Button variant="primary">Salvar</Button>
           </DialogComponent.Actions>
           <DialogComponent.Close />
         </DialogComponent.Content>

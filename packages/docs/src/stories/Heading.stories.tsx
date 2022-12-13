@@ -6,7 +6,7 @@ export default {
   component: Heading,
   args: {
     size: 'md',
-    children: 'Title',
+    children: 'Título',
   },
   argTypes: {
     size: {
@@ -22,7 +22,7 @@ export const Primary: StoryObj<HeadingProps> = {}
 
 export const CustomTag: StoryObj<HeadingProps> = {
   args: {
-    children: 'H1 Heading',
+    children: 'H1 Título',
     as: 'h1',
   },
   parameters: {

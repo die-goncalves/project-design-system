@@ -24,7 +24,7 @@ const Template: Story<ToastRootProps> = (args) => {
   return (
     <ToastComponent.Provider>
       <Button onClick={() => updateArgs({ open: !open })}>
-        <Text>Open toast</Text>
+        <Text>Abrir notificação</Text>
       </Button>
 
       <ToastComponent.Root

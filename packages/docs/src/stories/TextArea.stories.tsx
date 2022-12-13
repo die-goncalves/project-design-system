@@ -12,7 +12,7 @@ export default {
           as="label"
           css={{ display: 'flex', flexDirection: 'column', gap: '$2' }}
         >
-          <Text size="sm">Observations</Text>
+          <Text size="sm">Testando textarea</Text>
           {Story()}
         </Box>
       )
@@ -22,7 +22,7 @@ export default {
 
 export const Primary: StoryObj<TextAreaProps> = {
   args: {
-    placeholder: 'Add any observations',
+    placeholder: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit...',
   },
 }
 

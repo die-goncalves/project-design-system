@@ -35,11 +35,11 @@ const Template: Story<PopoverRootProps> = (args) => {
       onOpenChange={(open) => updateArgs({ open })}
     >
       <PopoverComponent.Trigger asChild>
-        <Button variant="primary">Open popover</Button>
+        <Button variant="primary">Abrir popover</Button>
       </PopoverComponent.Trigger>
 
       <PopoverComponent.Content>
-        <Text>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</Text>
+        <Text>Lorem ipsum dolor sit amet consectetur, adipisicing elit...</Text>
       </PopoverComponent.Content>
     </PopoverComponent.Root>
   )
